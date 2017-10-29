@@ -73,7 +73,7 @@ var TabsPage = (function () {
     return TabsPage;
 }());
 TabsPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\ionic\nedaa_second\src\pages\tabs\tabs.html"*/'<ion-tabs>\n    <ion-tab [root]="tab1Root" tabTitle="Dashboard" tabIcon="home"></ion-tab>\n    <ion-tab [root]="tab2Root" tabTitle="RFQ" tabIcon="help-buoy"></ion-tab>\n    <ion-tab [root]="tab3Root" tabTitle="Suggestions" tabIcon="chatboxes"></ion-tab>\n</ion-tabs>'/*ion-inline-end:"C:\ionic\nedaa_second\src\pages\tabs\tabs.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\ionic\nedaa_second\src\pages\tabs\tabs.html"*/'<ion-tabs>\n    <ion-tab [root]="tab1Root" tabTitle="Dashboard" tabIcon="home"></ion-tab>\n    <ion-tab [root]="tab2Root" tabTitle="RFQ" tabIcon="help-circle"></ion-tab>\n    <ion-tab [root]="tab3Root" tabTitle="Suggestions" tabIcon="chatboxes"></ion-tab>\n</ion-tabs>'/*ion-inline-end:"C:\ionic\nedaa_second\src\pages\tabs\tabs.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], TabsPage);
@@ -108,7 +108,7 @@ var AboutPage = (function () {
 }());
 AboutPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-about',template:/*ion-inline-start:"C:\ionic\nedaa_second\src\pages\about\about.html"*/'<ion-header>\n    <ion-navbar hideBackButton>\n        <ion-buttons left>\n            <button ion-button menuToggle>\n                <ion-icon name="menu"></ion-icon>\n            </button>\n        </ion-buttons>\n        <ion-title text-center><img src="assets/imgs/nedaa.png" height="40"></ion-title>\n        <ion-buttons end>\n            <button ion-button clear color="dark">\n                <ion-icon name="help-circle"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <div class="inner_heading">\n        RFQs\n    </div>\n</ion-content>'/*ion-inline-end:"C:\ionic\nedaa_second\src\pages\about\about.html"*/
+        selector: 'page-about',template:/*ion-inline-start:"C:\ionic\nedaa_second\src\pages\about\about.html"*/'<ion-header>\n    <common-header></common-header>\n</ion-header>\n\n<ion-content>\n    <div class="inner_heading">\n        RFQs\n    </div>\n</ion-content>'/*ion-inline-end:"C:\ionic\nedaa_second\src\pages\about\about.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
 ], AboutPage);
@@ -143,7 +143,7 @@ var ContactPage = (function () {
 }());
 ContactPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-contact',template:/*ion-inline-start:"C:\ionic\nedaa_second\src\pages\contact\contact.html"*/'<ion-header>\n    <ion-navbar hideBackButton>\n        <ion-buttons left>\n            <button ion-button menuToggle>\n                <ion-icon name="menu"></ion-icon>\n            </button>\n        </ion-buttons>\n        <ion-title text-center><img src="assets/imgs/nedaa.png" height="40"></ion-title>\n        <ion-buttons end>\n            <button ion-button clear color="dark">\n                <ion-icon name="help-circle"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <div class="inner_heading">\n        Suggestions\n    </div>\n</ion-content>'/*ion-inline-end:"C:\ionic\nedaa_second\src\pages\contact\contact.html"*/
+        selector: 'page-contact',template:/*ion-inline-start:"C:\ionic\nedaa_second\src\pages\contact\contact.html"*/'<ion-header>\n    <common-header></common-header>\n</ion-header>\n\n<ion-content>\n    <div class="inner_heading">\n        Suggestions\n    </div>\n</ion-content>'/*ion-inline-end:"C:\ionic\nedaa_second\src\pages\contact\contact.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
 ], ContactPage);
@@ -178,7 +178,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"C:\ionic\nedaa_second\src\pages\home\home.html"*/'<ion-header>\n    <ion-navbar hideBackButton>\n        <ion-buttons left>\n            <button ion-button menuToggle>\n                <ion-icon name="menu"></ion-icon>\n            </button>\n        </ion-buttons>\n        <ion-title text-center><img src="assets/imgs/nedaa.png" height="40"></ion-title>\n        <ion-buttons end>\n            <button ion-button clear color="dark">\n                <ion-icon name="help-circle"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <ion-grid class="menu-mosaic">\n        <div class="inner_heading">\n            Our Services\n        </div>\n        <ion-row>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/annual_ic.png" />\n                    <h5>Annual Package</h5>\n                </div>\n            </ion-col>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/quarter_ic.png" />\n                    <h5>Quarterly Package</h5>\n                </div>\n            </ion-col>\n        </ion-row>\n        <ion-row>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/annual_lease_ic.png" />\n                    <h5>Annual Lease Package</h5>\n                </div>\n            </ion-col>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/monthly_lease_ic.png" />\n                    <h5>Monthly Lease Package</h5>\n                </div>\n            </ion-col>\n        </ion-row>\n        <ion-row>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/weekly_lease_ic.png" />\n                    <h5>Weekly Lease Package</h5>\n                </div>\n            </ion-col>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/settings_ic.png" />\n                    <h5>Settings</h5>\n                </div>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n</ion-content>'/*ion-inline-end:"C:\ionic\nedaa_second\src\pages\home\home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"C:\ionic\nedaa_second\src\pages\home\home.html"*/'<ion-header>\n    <common-header></common-header>\n</ion-header>\n\n<ion-content>\n    <ion-grid class="menu-mosaic">\n        <div class="inner_heading">\n            Our Services\n        </div>\n        <ion-row>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/annual_ic.png" />\n                    <h5>Annual Package</h5>\n                </div>\n            </ion-col>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/quarter_ic.png" />\n                    <h5>Quarterly Package</h5>\n                </div>\n            </ion-col>\n        </ion-row>\n        <ion-row>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/annual_lease_ic.png" />\n                    <h5>Annual Lease Package</h5>\n                </div>\n            </ion-col>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/monthly_lease_ic.png" />\n                    <h5>Monthly Lease Package</h5>\n                </div>\n            </ion-col>\n        </ion-row>\n        <ion-row>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/weekly_lease_ic.png" />\n                    <h5>Weekly Lease Package</h5>\n                </div>\n            </ion-col>\n            <ion-col>\n                <div class="custom-grid">\n                    <img src="../../assets/imgs/settings_ic.png" />\n                    <h5>Settings</h5>\n                </div>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n</ion-content>'/*ion-inline-end:"C:\ionic\nedaa_second\src\pages\home\home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
 ], HomePage);
@@ -215,14 +215,16 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_contact_contact__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(153);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__ = __webpack_require__(150);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_header_header__ = __webpack_require__(267);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(196);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -243,6 +245,7 @@ AppModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
             __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_9__components_header_header__["a" /* HeaderComponent */],
             __WEBPACK_IMPORTED_MODULE_4__pages_welcome_welcome__["a" /* WelcomePage */],
             __WEBPACK_IMPORTED_MODULE_5__pages_about_about__["a" /* AboutPage */],
             __WEBPACK_IMPORTED_MODULE_6__pages_contact_contact__["a" /* ContactPage */],
@@ -260,6 +263,7 @@ AppModule = __decorate([
         bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
         entryComponents: [
             __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_9__components_header_header__["a" /* HeaderComponent */],
             __WEBPACK_IMPORTED_MODULE_4__pages_welcome_welcome__["a" /* WelcomePage */],
             __WEBPACK_IMPORTED_MODULE_5__pages_about_about__["a" /* AboutPage */],
             __WEBPACK_IMPORTED_MODULE_6__pages_contact_contact__["a" /* ContactPage */],
@@ -267,8 +271,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__["a" /* TabsPage */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
         ]
     })
@@ -320,16 +324,53 @@ var MyApp = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]) === "function" && _a || Object)
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\ionic\nedaa_second\src\app\app.html"*/'<ion-menu [content]="content" persistent="true" class="menu" type="overlay">\n    <ion-header>\n        <ion-toolbar>\n            <ion-title>\n                <ion-icon name="home"></ion-icon> Menus</ion-title>\n        </ion-toolbar>\n    </ion-header>\n\n    <ion-content class="menu-left">\n        <ion-list no-lines>\n            <ion-item>\n                <button><img src="assets/imgs/annual_ic.png" width="22" /> Annual Package</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/quarter_ic.png" width="22" /> Quarterly Package</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/annual_lease_ic.png" width="22" /> Annual Lease Package</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/monthly_lease_ic.png" width="22" /> Monthly Lease Package</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/weekly_lease_ic.png" width="22" /> Weekly Lease Package</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/profile_ic.png" width="22" /> My Profile</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/settings_ic.png" width="22" /> Settings</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/support_ic.png" width="22" /> Support</button>\n            </ion-item>\n            <ion-item>\n                <button menuClose (click)="goWelcome()"><img src="assets/imgs/logout_ic.png" width="22" /> Log Out</button>\n            </ion-item>\n        </ion-list>\n    </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\ionic\nedaa_second\src\app\app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\ionic\nedaa_second\src\app\app.html"*/'<ion-menu [content]="content" persistent="true" class="menu" type="overlay">\n    <ion-header>\n        <ion-toolbar>\n            <ion-title>\n                <ion-icon name="apps"></ion-icon> Menus</ion-title>\n        </ion-toolbar>\n    </ion-header>\n\n    <ion-content class="menu-left">\n        <ion-list no-lines>\n            <ion-item>\n                <button><img src="assets/imgs/annual_ic.png" width="22" /> Annual Package</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/quarter_ic.png" width="22" /> Quarterly Package</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/annual_lease_ic.png" width="22" /> Annual Lease Package</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/monthly_lease_ic.png" width="22" /> Monthly Lease Package</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/weekly_lease_ic.png" width="22" /> Weekly Lease Package</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/profile_ic.png" width="22" /> My Profile</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/settings_ic.png" width="22" /> Settings</button>\n            </ion-item>\n            <ion-item>\n                <button><img src="assets/imgs/support_ic.png" width="22" /> Support</button>\n            </ion-item>\n            <ion-item>\n                <button menuClose (click)="goWelcome()"><img src="assets/imgs/logout_ic.png" width="22" /> Log Out</button>\n            </ion-item>\n        </ion-list>\n    </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\ionic\nedaa_second\src\app\app.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
-var _a, _b, _c, _d;
 //# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 267:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeaderComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+/**
+ * Generated class for the HeaderComponent component.
+ *
+ * See https://angular.io/api/core/Component for more info on Angular
+ * Components.
+ */
+var HeaderComponent = (function () {
+    function HeaderComponent() {
+    }
+    return HeaderComponent;
+}());
+HeaderComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'common-header',template:/*ion-inline-start:"C:\ionic\nedaa_second\src\components\header\header.html"*/'<ion-navbar hideBackButton>\n    <ion-buttons left>\n        <button ion-button menuToggle>\n                <ion-icon name="menu"></ion-icon>\n            </button>\n    </ion-buttons>\n    <ion-title text-center><img src="assets/imgs/nedaa.png" height="40"></ion-title>\n    <ion-buttons end>\n        <button ion-button clear color="dark">\n                <ion-icon name="at"></ion-icon>\n            </button>\n    </ion-buttons>\n</ion-navbar>'/*ion-inline-end:"C:\ionic\nedaa_second\src\components\header\header.html"*/
+    }),
+    __metadata("design:paramtypes", [])
+], HeaderComponent);
+
+//# sourceMappingURL=header.js.map
 
 /***/ }),
 
